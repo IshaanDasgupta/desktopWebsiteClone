@@ -28,7 +28,7 @@ const DesignCard = () => {
                             27.40.12
                         </div>
                         <div className='designCard-design-pic'>
-                            <img src={profilePic} alt="" className='designCard-design-img'/>
+                            <img src={profilePic} alt="" className='designCard-design-img-primary'/>
                             <img src={profilePic} alt="" className='designCard-design-img'/>
                         </div>
                     </div>
@@ -46,7 +46,7 @@ const DesignCard = () => {
                             34.28.35
                         </div>
                         <div className='designCard-design-pic'>
-                            <img src={profilePic} alt="" className='designCard-design-img'/>
+                            <img src={profilePic} alt="" className='designCard-design-img-primary'/>
                             <img src={profilePic} alt="" className='designCard-design-img'/>
                         </div>
                     </div>
@@ -64,7 +64,7 @@ const DesignCard = () => {
                             19.35.54
                         </div>
                         <div className='designCard-design-pic'>
-                            <img src={profilePic} alt="" className='designCard-design-img'/>
+                            <img src={profilePic} alt="" className='designCard-design-img-primary'/>
                             <img src={profilePic} alt="" className='designCard-design-img'/>
                         </div>
                     </div>

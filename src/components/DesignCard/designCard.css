@@ -65,6 +65,16 @@
 .designCard-design-img{
     width: 1.5rem;
     border-radius: 50%;
+    z-index: 3;
+    position: relative;
+}
+
+.designCard-design-img-primary {
+    width: 1.5rem;
+    border-radius: 50%;
+    z-index: 2;
+    position: relative;
+    right: -15%;
 }
 
 .dot{
