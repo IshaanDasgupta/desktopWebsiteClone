@@ -1,0 +1,66 @@
+.projectCard{
+    background-color: #e9affc;
+    border-radius: 30px;
+    border: 1px solid black;
+    height: 47%;
+    padding: 0 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.projectCard-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.projectCard-info{
+    color: rgb(110, 110, 110);
+    letter-spacing: 1px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.projectCard-title{
+    font-weight: 600;
+}
+
+.projectCard-flex{
+    display: flex;
+    justify-content: space-between;
+    height: 40%;
+}
+
+.projectCard-flex-buttons{
+    width: 30%;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 20px;
+    background-color: black;
+    padding: 0.5rem;
+}
+
+.projectCard-button-1{
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.projectCard-button-2 {
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: rgb(55, 55, 55);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.projectCard-timer{
+    font-size: 50px;
+}

@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 2%;
+    background-color: #ffffff;
+    border-bottom: 1px solid black;
+}
+
+.nav-back{
+    direction: rtl;
+}
+
+nav {
+    order: 1;
+}
+
+.logo-container{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    color: white;
+}
+
+.nav-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 1rem;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    font-size: 16px;
+}
+
+
+.nav-black-button{
+    margin: 0 0.5rem;
+    width: 10vw;
+    background-color: black;
+    padding: 1rem;
+    border-radius: 30px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-white-button {
+    margin: 0 0.5rem;
+    width: 10vw;
+    background-color: rgb(255, 255, 255);
+    padding: 1rem;
+    border-radius: 30px;
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    margin-left: 2rem;
+}
+
+.nav-dot{
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+.nav-dot-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0.1rem;
+}
+
+.caretDown{
+    margin-left: 0.5rem;
+}

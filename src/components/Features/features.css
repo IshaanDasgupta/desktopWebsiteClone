@@ -1,0 +1,85 @@
+.features{
+    direction: rtl;
+    overflow: hidden;
+    -webkit-mask-image: linear-gradient(270deg, #000 60%, transparent);
+        
+}
+
+.features-block{
+    display: inline-block;
+}
+
+.overflow-div{
+    min-width: 2000vw;
+}
+
+.features-greenCard {
+    background-color: #5cd669;
+    padding: 1rem;
+    margin: 0.5rem;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+}
+
+.features-blueCard {
+    color: white;
+    background-color: #534fff;
+    padding: 1rem;  
+    margin: 0.5rem;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+}
+
+.features-pinkCard {
+    background-color: #e9affc;
+    padding: 1rem;
+    margin: 0.5rem;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+}
+
+.features-card{
+    padding: 1rem;
+    margin: 0.5rem;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+}
+
+.feature-dot {
+    background-color: white;
+    height: 1rem;
+    width: 1rem;
+    border: 1px solid black;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+.feature-plus{
+    background-color: rgb(0, 0, 0);
+    height: 1.4rem;
+    width: 1.4rem;
+    border: 1px solid black;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.feature-plus-icon{
+    color: white;
+}

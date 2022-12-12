@@ -1,0 +1,64 @@
+.employeeCard{
+    background-color: #534fff;
+    border-radius: 30px;
+    border: 1px solid black;
+    height: 47%;
+    padding: 0 1rem;
+    display: flex;
+}
+
+.employeeCard-profile{
+    width: 77%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.employeeCard-info{
+    color: rgb(189, 189, 189);
+    letter-spacing: 1px;
+    font-size: 12px;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+}
+
+.employeeCard-flex{
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.employeeCard-stat-title{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+}
+
+.employeeCard-stat-info{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.employeeCard-title{
+    color: white;
+    font-weight: 500;
+}
+
+.employeeCard-ammount{
+    color: #e9affc;
+    font-weight: 500;
+}
+
+.employeeCard-pic{
+    width: 23%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.employeeCard-pic img{
+    width: 100%;
+    border-radius: 50%;
+}

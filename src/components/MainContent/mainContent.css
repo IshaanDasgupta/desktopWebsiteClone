@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+.main-content{
+    margin: 0 4rem;
+    margin-top: 2rem;
+}
+
+.main-flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.headline{
+    max-height: 40vh;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.main-text{
+    margin: 0;
+    padding: 0;
+    font-size: 79px;
+    font-weight: 500;
+    letter-spacing: -4px;
+    word-spacing: 0px;
+    line-height: 1;
+}
+
+.description{
+    color: rgb(169, 169, 169);
+    width: 80%;
+    line-height: 1.4;
+    margin-top: 1rem;
+}
+
+.side-cards{
+    max-height: 40vh;
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.secondary-flex{
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 0;
+}
+
+.secondary-flex-component{
+    max-height: 30vh;
+    width: 33%;
+}
+
+.button-flex{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.association-headline{
+    font-family: 'Playfair Display', serif;
+    padding-bottom: 0.5rem;
+    font-weight: 600;
+    border-bottom: 1px solid black;
+    letter-spacing: 1px;
+    font-size: 15px;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.association-flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.association-container{
+    width: 20%;
+}
+
+.association{
+    width: 100%;
+}
