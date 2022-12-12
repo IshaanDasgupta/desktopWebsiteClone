@@ -38,7 +38,7 @@ const Navbar = () => {
             <nav className='nav-back'>
                 <ul className="nav-links">
                     <div className='nav-black-button'>Try for Free</div>
-                    <div className='nav-white-button'>Login In</div>
+                    <div className='nav-white-button'>Log In</div>
                     <div className='nav-dot-container'>
                       <div className='nav-dot'></div>
                     </div>
